@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* YOUR CSS GOES HERE */
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: darkred;
+        }
+        #main-header {
+            background-color: aquamarine;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 45px;
+        }
+        h2{
+            color: crimson;
+        }
+        nav ul{
+         display: flex;
+         list-style: none;   
+        }
+        .card{
+            padding: 15px;
+            border: 1px solid crimson;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        a {
+            color: crimson;
+        }
+        footer {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Nduvho</h1>
+        <p>Student ID: 2801257</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>I like coding. I like football. I am studying computer science. I hope to know how do develop software after this course.</p>
+        </section>
+
+        <article class="card" id="projects">
+            <h2>Latest Project</h2>
+            <p>I made a timer that tracks how much you studied for differernt subjects</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nduvho. All rights reserved.</p>
+    </footer>
+</body>
+</html>
